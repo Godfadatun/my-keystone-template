@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 // eslint-disable-next-line prettier/prettier
 const user_1 = require("./user");
+// eslint-disable-next-line prettier/prettier
 const auth_1 = require("./auth");
 const router = express_1.default.Router();
 router.get('/', (_, res) => res.json({ success: true, message: 'User gateway v1 up.' }));

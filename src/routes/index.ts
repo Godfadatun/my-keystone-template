@@ -2,6 +2,7 @@ import express from 'express';
 
 // eslint-disable-next-line prettier/prettier
 import { AddressCreator, userResource } from './user';
+// eslint-disable-next-line prettier/prettier
 import { validateSession } from './auth';
 
 const router = express.Router();

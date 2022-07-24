@@ -1,5 +1,5 @@
+/* eslint-disable prettier/prettier */
 import { RequestHandler } from 'express';
-import { deliverOrder, makeOrderRequest, pickUpOrder } from '../controllers/order';
 import { createUser, createAddress } from '../controllers/user';
 
 export const userResource: RequestHandler = async (req, res) => {
